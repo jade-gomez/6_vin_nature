@@ -12,6 +12,9 @@ img,
 video {
   display: block;
 }
+body {
+  font-family: "inter";
+}
 @font-face {
   font-family: "Molang";
   src: url("../font/SwistblnkMoalangMelintang.woff") format("woff"),
@@ -19,3 +22,21 @@ video {
 }
 
 @import "bootstrap/scss/bootstrap-grid";
+.menu-princ {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-princ img {
+  height: 40px;
+}
+.icons-right {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.menu-sec {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
