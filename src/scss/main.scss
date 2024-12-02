@@ -22,6 +22,20 @@ body {
 }
 
 @import "bootstrap/scss/bootstrap-grid";
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -100;
+}
+
+.menu-princ h1 {
+  color: #c51c1f;
+  font-family: "Molang";
+}
 .menu-princ {
   display: flex;
   justify-content: space-between;
@@ -39,4 +53,5 @@ body {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  top: 820px;
 }
