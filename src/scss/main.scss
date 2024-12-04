@@ -38,6 +38,7 @@ body {
   display: flex;
   align-items: center;
   gap: 7px;
+  margin-top: 45px;
 }
 .CTA p {
   font-size: 24px;
@@ -104,13 +105,10 @@ h1 {
   align-items: flex-end;
 }
 
-.CTA.cta-nv {
-  margin-top: 45px;
-}
-
 .fond-6C1012 {
   background-color: #6c1012;
   color: #ede1d2;
+  padding: 124px 0px 70px;
 }
 h2.valeurs-titre {
   font-size: 64px;
