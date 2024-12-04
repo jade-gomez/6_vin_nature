@@ -14,6 +14,7 @@ video {
 }
 body {
   font-family: "inter";
+  background: #fff;
 }
 @font-face {
   font-family: "Molang";
@@ -28,13 +29,15 @@ video {
   top: 0;
   left: 0;
   max-width: 100%;
-  max-height: 100%;
+  /*max-height: 100%;*/
   z-index: -100;
 }
 
-.menu-princ h1 {
+.menu-princ h2 {
   color: #c51c1f;
   font-family: "Molang";
+  font-size: 40px;
+  font-weight: 400;
 }
 .menu-princ {
   display: flex;
@@ -48,10 +51,21 @@ video {
   align-items: center;
   gap: 23px;
 }
-
+h1 {
+  font-size: 475px;
+  font-family: "Molang";
+  color: #c51c1f;
+  font-weight: 400;
+}
+.menu-fixed {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  color: white;
+  mix-blend-mode: difference;
+}
 .menu-sec {
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  top: 680px;
 }
