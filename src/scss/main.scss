@@ -27,6 +27,7 @@ body {
 .minis-titres {
   font-size: 14px;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 .paragraphe {
   font-size: 21.5px;
@@ -89,6 +90,24 @@ h1 {
   justify-content: space-between;
 }
 
-.fond-#EDE1D2 {
+.fond-EDE1D2 {
   background-color: #ede1d2;
+  padding: 124px 0px 73px;
+}
+p.minis-titres.mini-nv {
+  color: #c51c1f;
+}
+
+.paragraphe.pg-nv {
+  color: #c51c1f;
+  width: 166%;
+  margin-left: -66%;
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-end;
+}
+
+.CTA.cta-nv {
+  margin-top: 45px;
+  color: #c51c1f;
 }

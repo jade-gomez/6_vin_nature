@@ -1,39 +1,47 @@
 <extends src="base-layout.html">
   <block name="intro">
-    <div class="row">
-      <div class="col-12">
-        <video id="background-video" autoplay loop muted>
-          <source src="video/retouche-video.mp4" type="video/mp4" />
-        </video>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <video id="background-video" autoplay loop muted>
+            <source src="video/retouche-video.mp4" type="video/mp4" />
+          </video>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <h1>UNIQUE</h1>
+      <div class="row">
+        <div class="col-12">
+          <h1>UNIQUE</h1>
+        </div>
       </div>
     </div>
   </block>
 
   <block name="content">
-    <div class="fond-#EDE1D2">
+    <div class="fond-EDE1D2">
       <div class="container">
         <div class="row">
-          <div class="col-2"><p class="minis-titres">nouveauté</p></div>
+          <div class="col-2"><p class="minis-titres mini-nv">nouveauté</p></div>
         </div>
         <div class="row">
           <div class="col-8">
-            <img src="img/img-nouveaute.png" alt="vin blanc" />
+            <img
+              class="vin-blan-nv"
+              src="img/img-nouveaute.png"
+              alt="vin blanc"
+            />
           </div>
           <div class="col-4">
-            <p class="paragraphe" class="nouveaute">
-              Découvrez notre nouvelle gamme de vin nature pour accompagner vos
-              mets en toute douceur et élégance.
-            </p>
+            <div class="paragraphe pg-nv">
+              <p>
+                Découvrez notre nouvelle gamme de vin nature pour accompagner
+                vos mets en toute douceur et élégance.
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-2">
-            <div class="CTA">
+            <div class="CTA cta-nv">
               <p>Voir plus</p>
               <svg
                 width="11"
@@ -48,6 +56,15 @@
                 />
               </svg>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fond-6C1012">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <p class="minis-titres" class="philo-titres"></p>
           </div>
         </div>
       </div>
