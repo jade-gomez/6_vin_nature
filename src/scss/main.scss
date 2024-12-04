@@ -33,6 +33,15 @@ body {
   font-weight: 300;
   line-height: 121.15%;
 }
+.CTA {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.CTA p {
+  font-size: 24px;
+  font-weight: 500;
+}
 
 video {
   position: absolute;
