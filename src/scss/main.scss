@@ -160,7 +160,8 @@ p.paragraphe.vigneron-pg {
   color: #ede1d2;
   padding: 124px 0 73px;
 }
-h3.pg-titre-degustation {
+
+h4.pg-titre-degustation {
   font-size: 30px;
   font-weight: 500;
   line-height: 140%;
@@ -169,4 +170,26 @@ h3.pg-titre-degustation {
 
 .paragraphe.pg-degu {
   margin-top: -277px;
+}
+
+.fond-EDE1D2.nl {
+  color: #6c1012;
+  padding: 64px 0;
+}
+h3.titre-nl {
+  font-size: 34.3px;
+  font-weight: 500;
+}
+p.sous-titre-nl {
+  font-weight: 500;
+}
+p.mail-nl {
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.inscription-nl p {
+  color: #ede1d2;
+  font-size: 24px;
+  font-weight: 500;
 }
