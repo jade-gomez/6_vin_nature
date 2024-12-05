@@ -23,11 +23,15 @@ body {
 }
 
 @import "bootstrap/scss/bootstrap-grid";
+img {
+  width: 100%;
+}
 
 .minis-titres {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 8px;
+  text-align: right;
 }
 .paragraphe {
   font-size: 21.5px;
@@ -134,6 +138,19 @@ h2.valeurs-titre {
   align-self: flex-end;
 }
 
+h2.vigne-titre {
+  text-align: right;
+}
+
+.vigneron.Gerald {
+  margin-top: 45px;
+}
+.vigneron.Sylvie {
+  margin-top: -65px;
+}
 .vigneron.Christophe {
-  margin-left: -30px;
+  margin-top: -65px;
+}
+p.paragraphe.vigneron-pg {
+  margin-top: 92px;
 }
