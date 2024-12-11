@@ -266,3 +266,11 @@ p.texte-footer.strong {
   display: flex;
   gap: 95px;
 }
+p.droits {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+}
