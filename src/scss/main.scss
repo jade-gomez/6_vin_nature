@@ -249,3 +249,20 @@ p.texte-footer {
   align-items: center;
   gap: 10px;
 }
+p.texte-footer.strong {
+  font-weight: 500;
+}
+.logos img {
+  max-width: 71px;
+}
+.logos {
+  margin-top: -30px;
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.protection {
+  display: flex;
+  gap: 95px;
+}
