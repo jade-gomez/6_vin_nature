@@ -45,8 +45,10 @@ img {
   gap: 7px;
   margin-top: 45px;
   justify-content: right;
+  display: inline-block;
+  padding-bottom: 3px;
 }
-.CTA p,
+
 .CTA a {
   font-size: 24px;
   font-weight: 500;
@@ -54,6 +56,9 @@ img {
 
 .cta-nv:hover {
   border-bottom: 0.9px solid #c51c1f;
+}
+.cta-philo:hover {
+  border-bottom: 0.9px solid #ede1d2;
 }
 
 video {
