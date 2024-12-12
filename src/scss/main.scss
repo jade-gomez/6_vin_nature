@@ -44,6 +44,7 @@ img {
   align-items: center;
   gap: 7px;
   margin-top: 45px;
+  justify-content: right;
 }
 .CTA p,
 .CTA a {
@@ -51,7 +52,7 @@ img {
   font-weight: 500;
 }
 
-.CTA:hover {
+.cta-nv:hover {
   border-bottom: 0.9px solid #c51c1f;
 }
 
