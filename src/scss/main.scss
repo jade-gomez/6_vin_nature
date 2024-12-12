@@ -15,7 +15,7 @@ video {
 }
 body {
   font-family: "inter";
-  background: #fff;
+  background: #ede1d2;
 }
 @font-face {
   font-family: "Molang";
@@ -49,6 +49,10 @@ img {
 .CTA a {
   font-size: 24px;
   font-weight: 500;
+}
+
+.CTA:hover {
+  border-bottom: 0.9px solid #c51c1f;
 }
 
 video {
@@ -95,6 +99,10 @@ h1 {
 .menu-sec {
   display: flex;
   justify-content: space-between;
+}
+
+.menu-sec p:hover {
+  text-decoration: underline;
 }
 
 .fond-EDE1D2 {
