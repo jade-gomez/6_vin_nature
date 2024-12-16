@@ -44,9 +44,9 @@ img {
   align-items: center;
   gap: 7px;
   margin-top: 45px;
-  justify-content: right;
   display: inline-block;
   padding-bottom: 3px;
+  justify-content: flex-end;
 }
 
 .CTA a {
@@ -59,6 +59,13 @@ img {
 }
 .cta-philo:hover {
   border-bottom: 0.9px solid #ede1d2;
+}
+.CTA.cta-panier {
+  color: #c51c1f;
+  margin-top: -32;
+}
+.CTA.cta-panier:hover {
+  border-bottom: 0.9px solid #c51c1f;
 }
 
 video {
@@ -361,11 +368,6 @@ p.titre-info-vin {
 .info-sec svg {
   margin-top: 50px;
 }
-
-.CTA.cta-panier {
-  color: #c51c1f;
-  margin-top: -32;
-}
-.CTA.cta-panier:hover {
-  border-bottom: 0.9px solid #c51c1f;
+.cta-wrapper {
+  text-align: right;
 }
