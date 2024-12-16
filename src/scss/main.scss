@@ -54,7 +54,7 @@ img {
   font-weight: 500;
 }
 
-.cta-nv:hover {
+.CTA.cta-nv:hover {
   border-bottom: 0.9px solid #c51c1f;
 }
 .cta-philo:hover {
@@ -77,6 +77,7 @@ video {
   font-weight: 400;
 }
 .menu-princ {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -93,6 +94,16 @@ h1 {
   font-family: "Molang";
   color: #c51c1f;
   font-weight: 400;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 400;
+  }
+}
+
+h1:hover {
+  opacity: 0;
 }
 .menu-fixed {
   position: fixed;
@@ -119,7 +130,7 @@ h1 {
 
 .paragraphe.pg-nv {
   width: 166%;
-  margin-left: -66%;
+  margin: 140% 0 0 -66%;
   display: flex;
   align-items: flex-start;
   align-items: flex-end;
@@ -157,6 +168,11 @@ h2.valeurs-titre {
 h2.vigne-titre {
   text-align: right;
 }
+@media (max-width: 1200px) {
+  h2.vigne-titre {
+    font-size: 57;
+  }
+}
 
 .vigneron.Gerald {
   margin-top: 45px;
@@ -185,7 +201,8 @@ h4.pg-titre-degustation {
 }
 
 .paragraphe.pg-degu {
-  margin-top: -277px;
+  margin-top: -60%;
+  opacity: 0.8;
 }
 
 .fond-EDE1D2.nl {
@@ -238,6 +255,7 @@ h5 {
   font-weight: 500;
   opacity: 0.75;
 }
+a.texte-footer,
 p.texte-footer {
   font-size: 16px;
   font-weight: 300;
@@ -254,6 +272,7 @@ p.texte-footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: flex-start;
 }
 .footer h5 {
   margin: 36px 0px;
@@ -346,4 +365,7 @@ p.titre-info-vin {
 .CTA.cta-panier {
   color: #c51c1f;
   margin-top: -32;
+}
+.CTA.cta-panier:hover {
+  border-bottom: 0.9px solid #c51c1f;
 }
