@@ -382,3 +382,21 @@ p.titre-info-vin {
 .cta-wrapper {
   text-align: right;
 }
+
+@keyframes bond {
+  0% {
+    transform: translateY(0);
+  }
+  27% {
+    transform: translateY(-25px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.cta-panier svg {
+  animation: bond 1.3s infinite;
+}
