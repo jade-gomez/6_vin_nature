@@ -291,6 +291,7 @@ h2.logo {
   font-size: 50px;
   font-weight: 400;
 }
+
 h5 {
   font-size: 22px;
   font-weight: 500;
@@ -429,4 +430,11 @@ p.titre-info-vin {
 }
 .img-vins:hover {
   transform: scale(1.1);
+}
+
+h2.h2-menu {
+  transition: color 1s;
+}
+h2.h2-menu:hover {
+  color: #6c1012;
 }
